@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;600;800&display=swap');
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+} 
+
+.logo h1 {
+    margin-left: 12px;
+}
+
+.logo-arrow {
+    padding: 0;
+    margin: 0;
+    align-self: start;
+    margin-right: -15px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272a31;
+    margin-left: 50px;
+}
+
+.welcome {
+    background: url('./img/desktop.png');
+    margin-top: 65px;
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.h1-div {
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: url('./img/h1-bg.jpg');
+    background-size: contain;
+	color: transparent;
+}
+
+.welcome-details h1{
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+.welcome-description {
+    background-color: whitesmoke;
+    color: #272a31;
+    font-size: 13px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 600px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.welcome-details h2 {
+    font-size: 40px;
+    color: #272a31;
+}
+
+.welcome-details h2 + p{
+    color: #36393f;
+}
