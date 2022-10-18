@@ -48,6 +48,12 @@ nav a {
     margin-left: 50px;
 }
 
+.contact {
+    border: 3px solid #e65642;
+    padding: 10px;
+    color: #e65642;
+}
+
 nav ul {
     display: none;
 }
