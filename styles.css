@@ -27,8 +27,8 @@ html {
   background-color: white;
   top: 0;
   z-index: 1000;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
 }
 
 nav {
@@ -137,7 +137,7 @@ nav ul {
   margin-bottom: 14px;
 }
 
-.welcome-details h2 + p {
+.welcomeP {
   color: #36393f;
 }
 
@@ -202,7 +202,7 @@ nav ul {
   margin-right: 20px;
 }
 
-.main-event-details a {
+.see-whole-program{
   align-self: center;
   color: white;
   margin-top: 20px;
@@ -270,7 +270,7 @@ nav ul {
   margin-bottom: 10px;
 }
 
-.speaker-details p {
+.speakers-p {
   font-size: small;
   color: #36393f;
   margin-top: 12px;
@@ -285,7 +285,7 @@ nav ul {
   padding: 80px 0;
 }
 
-.partners p {
+.partners-p {
   text-align: center;
   color: whitesmoke;
   font-size: 20px;
@@ -351,7 +351,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.mobile-menu a {
+.menu-link {
   text-decoration: none;
   color: white;
   font-size: 25px;
