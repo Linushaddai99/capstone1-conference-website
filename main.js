@@ -40,21 +40,20 @@ const speakerDetails = [
     speakerImg: './img/speaker2.png',
     speakerName: 'Prof. Xiaohui Frank Zhang',
     position: 'University of Massachusetts Amherst USA',
-    bio: 'Prof. Xiaohui “Frank” Zhang received his doctorate in Physiology and Biophysics from the University of Miami School of Medicine, and completed his postdoctoral training in biophysics at Harvard Medical School.'
+    bio: 'Prof. Xiaohui “Frank” Zhang received his doctorate in Physiology and Biophysics from the University of Miami School of Medicine, and completed his postdoctoral training in biophysics at Harvard Medical School.',
   },
   {
     speakerImg: './img/speaker3.jpg',
     speakerName: 'Prof. Ilaria Cacciotti',
     position: 'University of Niccolò Cusano Italy',
-    bio: 'Prof. Dr. Ilaria Cacciotti is Full Professor of Biomaterials & Tissue Engineering and Materials Science and Technology at University of Rome "Niccolò Cusano", with consolidated expertise in the synthesis.'
+    bio: 'Prof. Dr. Ilaria Cacciotti is Full Professor of Biomaterials & Tissue Engineering and Materials Science and Technology at University of Rome "Niccolò Cusano", with consolidated expertise in the synthesis.',
   },
 ];
 
-function createSpeaker (data){
+function createSpeaker(data) {
   const speaker = document.createElement('div');
   speaker.className = 'speaker';
-  speaker.innerHTML = 
-  `<div class="image">
+  speaker.innerHTML = `<div class="image">
         <img class="speaker-img" src="${data.speakerImg}" alt="">
         </div>
         <div class="speaker-details">
