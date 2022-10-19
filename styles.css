@@ -33,7 +33,7 @@ nav {
 }
 
 .logo img {
-    background-color: #36393f;
+    background-color: rgba(64, 67, 73, 0.9);
     width: 150px;
     height: 40px;
 }
@@ -245,7 +245,7 @@ nav ul {
 }
 
 .speaker-details p {
-    font-size: 14px;
+    font-size: small;
     color: #36393f;
     margin-top: 12px;
 }
