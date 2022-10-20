@@ -94,7 +94,6 @@ nav span {
   text-align: left;
 }
 
-
 nav li::after {
   content: "";
   left: 35px;
