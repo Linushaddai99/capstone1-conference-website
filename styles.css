@@ -74,7 +74,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 0;
+  padding: 12px 0;
 }
 
 .logo {
@@ -137,7 +137,7 @@ nav a:hover {
   font-size: 50px;
   max-width: 100%;
   font-weight: 600;
-  line-height: 70px;
+  line-height: 50px;
   margin-bottom: 30px;
 }
 
@@ -222,9 +222,9 @@ nav a:hover {
 }
 
 .main-events-img {
-  width: 50px;
-  height: 50px;
-  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .for-desktop {
@@ -271,12 +271,12 @@ nav a:hover {
   background: url("./img/checkers2.png");
   background-size: 100px;
   margin-bottom: 100px;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 .speaker-img {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
 }
 
 .speakers-section-details h2 {
@@ -310,7 +310,6 @@ nav a:hover {
 }
 
 .speakers-p {
-  font-size: small;
   color: #36393f;
   margin-top: 12px;
 }
@@ -327,18 +326,17 @@ nav a:hover {
 .partners-p {
   text-align: center;
   color: whitesmoke;
-  font-size: 20px;
   margin-bottom: 20px;
 }
 
 .partners-holder {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 40px;
 }
 
 .partners-logo {
-  width: 170px;
+  width: 100%;
   height: 70px;
 }
 
@@ -376,7 +374,7 @@ footer {
   left: 0;
   position: fixed;
   width: 100%;
-  height: 50%;
+  height: 100%;
   z-index: 1000000000;
   background: #36393f;
 }
@@ -430,6 +428,7 @@ footer {
 
   .welcome-details h1 {
     font-size: 65px;
+    line-height: 70px;
   }
 
   .main-event-details ul {
