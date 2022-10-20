@@ -68,16 +68,6 @@
   height: 100px;
 }
 
-footer {
-  background-color: rgba(64, 67, 73, 0.9);
-  color: white;
-}
-
-.footer-h2 {
-  color: white;
-  margin-bottom: 15px;
-}
-
 .past-submit {
   padding: 100px 0;
 }

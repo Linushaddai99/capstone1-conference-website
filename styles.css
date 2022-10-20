@@ -126,7 +126,7 @@ nav a:hover {
   margin-top: 65px;
   height: auto;
   width: 100%;
-  padding: 80px 0;
+  padding: 16px 0;
 }
 
 .h1-div {
@@ -134,7 +134,7 @@ nav a:hover {
 }
 
 .welcome-details h1 {
-  font-size: 50px;
+  font-size: 34px;
   max-width: 100%;
   font-weight: 600;
   line-height: 50px;
@@ -426,9 +426,21 @@ footer {
     display: none;
   }
 
+  .welcome {
+    padding: 80px 0;
+  }
+
   .welcome-details h1 {
-    font-size: 65px;
+    font-size: 52px;
     line-height: 70px;
+  }
+
+  .h1-div {
+    margin-top: 28px;
+  }
+
+  .welcome-description {
+    font-size: 16px;
   }
 
   .main-event-details ul {
