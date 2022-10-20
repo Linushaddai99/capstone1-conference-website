@@ -13,7 +13,7 @@ In this project, I was able to build a Conference website. The goal of this proj
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://linushaddai99.github.io/capstone1-conference-website/index.html)
 
 
 ### Prerequisites
