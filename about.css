@@ -135,11 +135,11 @@ footer {
   height: 40px;
 }
 
-
 @media (min-width: 768px) {
   .top-section {
     margin-top: 70px;
   }
+
   .objectives-content {
     display: flex;
   }
