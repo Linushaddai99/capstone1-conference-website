@@ -22,7 +22,7 @@ html {
 }
 
 .header {
-  padding: 15px 0;
+  /* padding: 10px 0; */
   position: fixed;
   width: 100%;
   background-color: white;
@@ -33,10 +33,34 @@ html {
     rgba(0, 0, 0, 0.04) 0 10px 10px -5px;
 }
 
+.social-media {
+  display: none;
+  background-color: rgba(64, 67, 73, 0.9);
+  padding: 10px 10%;
+}
+
+.social-media ul{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px 0;
 }
 
 .logo {
@@ -107,22 +131,19 @@ nav ul {
 }
 
 .h1-div {
-  -webkit-background-clip: text;
-  background-image: url("./img/h1-bg.jpg");
-  background-size: contain;
-  color: transparent;
+  color: #e65642;
 }
 
 .welcome-details h1 {
   font-size: 50px;
   max-width: 100%;
   font-weight: 600;
-  line-height: 80px;
+  line-height: 70px;
   margin-bottom: 30px;
 }
 
 .welcome-description {
-  background-color: whitesmoke;
+  background-color: white;
   color: #272a31;
   font-size: 13px;
   border: 1px solid white;
@@ -164,6 +185,10 @@ nav ul {
   margin-bottom: 5px;
 }
 
+.main-event-details li:hover {
+  border: 1px solid white;
+}
+
 .main-event-details h2 {
   color: white;
   align-self: center;
@@ -201,6 +226,20 @@ nav ul {
   width: 50px;
   height: 50px;
   margin-right: 20px;
+}
+
+.for-desktop {
+  display: none;
+}
+
+.for-mobile {
+  padding: 20px;
+  color: white;
+  font-size: larger;
+  background-color: #e65642;
+  border: none;
+  width: 80%;
+  margin: 30px auto 0 auto;
 }
 
 .see-whole-program {
@@ -319,6 +358,16 @@ footer {
   color: #505257;
 }
 
+.logo-foot {
+  margin-top: -15px;
+}
+
+.logo-foot img {
+  background-color: rgba(64, 67, 73, 0.9);
+  width: 150px;
+  height: 40px;
+}
+
 .hide {
   display: none;
 }
@@ -364,6 +413,10 @@ footer {
     max-width: 80%;
   }
 
+  .social-media {
+    display: block;
+  }
+
   nav ul {
     display: block;
   }
@@ -398,5 +451,13 @@ footer {
 
   .main-event-details p {
     font-size: 13px;
+  }
+
+  .for-desktop {
+    display: block;
+  }
+
+  .for-mobile {
+    display: none;
   }
 }

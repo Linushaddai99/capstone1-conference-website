@@ -1,21 +1,25 @@
 .top-section {
   background-image: url("./img/desktop.png");
   background-repeat: no-repeat;
-  margin-top: 65px;
-  height: auto;
+  margin-top: 50px;
+  /* height: calc(auto + 50px); */
   width: 100%;
-  padding: 80px 0;
+  padding: 20px 0;
   text-align: center;
   color: #626264;
 }
 
+.abt-h1 {
+  margin-top: 30px;
+}
+
 .about-conference {
-  width: 700px;
-  max-width: 90%;
-  margin: 20px auto;
-  background-color: rgb(253, 251, 251);
+  width: 900px;
+  max-width: 95%;
+  margin: 40px auto;
+  background-color: white;
   color: #626264;
-  border: 1px solid white;
+  border: 1px solid #d3d3d3;
   font-size: 14px;
   padding: 20px;
 }
@@ -32,53 +36,36 @@
   color: #626264;
 }
 
-.objectives {
-  padding: 50px 0;
-}
-
-.objectives h2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.obj {
-  border: 1px solid rgba(64, 67, 73, 0.9);
-  border-radius: 8px;
-  margin-bottom: 40px;
-  width: 100%;
-}
-
-.obj .head {
-  background-color: rgba(64, 67, 73, 0.9);
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  padding: 30px 0;
+.about-the-logo {
+  padding: 70px 0;
+  border: 1px solid #d3d3d3;
   text-align: center;
 }
 
-.head h3 {
-  color: white;
-  font-size: 20px;
+.about-logo-content {
+  width: 700px;
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #626264;
 }
 
-.obj-img {
-  width: 100px;
-  height: 100px;
+.about-logo-content h3 {
   margin-bottom: 20px;
 }
 
-.obj ul {
-  padding: 20px;
+.about-logo-content div {
+  border: 1px solid #d3d3d3;
+  width: 900px;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 30px 0;
 }
 
-.obj li {
-  display: flex;
-  line-height: 25px;
-  font-size: 14px;
-}
-
-.obj span {
-  color: #e65642;
+.about-logo-content img {
+  background-color: rgba(64, 67, 73, 0.9);
+  width: 60%;
+  height: 100px;
 }
 
 footer {
@@ -93,7 +80,6 @@ footer {
 
 .past-submit {
   padding: 100px 0;
-  background-image: url("./img/desktop.png");
 }
 
 .past-submit h2 {
@@ -116,12 +102,45 @@ footer {
   gap: 40px;
 }
 
-.submits img {
-  width: 100%;
-  height: 250px;
+.submit1 {
+  background-image: url(./img/previouse-submit1.jpg), linear-gradient(#eb3d2a, #eb3d2a);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  padding: 7rem 1rem;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 
+.submit2 {
+  background-image: url(./img/previous-submit2.jpg), linear-gradient(#da2a17, #da2a17);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  padding: 7rem 1rem;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-abt {
+  margin-top: -15px;
+}
+
+.logo-abt img {
+  background-color: rgba(64, 67, 73, 0.9);
+  width: 150px;
+  height: 40px;
+}
+
+
 @media (min-width: 768px) {
+  .top-section {
+    margin-top: 70px;
+  }
   .objectives-content {
     display: flex;
   }
